@@ -1,2 +1,2 @@
-# sensory_organs_tester
+# Sensory Organ Tester
 Benchmarking Software for human sensory organs.
