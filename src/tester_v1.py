@@ -171,6 +171,7 @@ class SensoryOrganTester:
     def stop(self):
         """A function to stop the tester"""
         self.run = False
+        self.display.root.destroy()
 
 
 tester = SensoryOrganTester(no_of_stimuli=10)
