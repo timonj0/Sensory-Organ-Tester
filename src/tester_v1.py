@@ -146,7 +146,7 @@ class SensoryOrganTester:
                 l.log("Stopping benchmark", Logger.INFO)
                 self.stop()
 
-            if random.randint(0, 1) == 1:  # Visual stimulus
+            if random.randint(0, 2) == 1:  # Visual stimulus
                 timer_thread = Thread(target=self.timer)
                 timer_thread.start()
                 color, duration = self.visual_stimulus()
